@@ -1,0 +1,145 @@
+Algoritma : 
+Step 1 Jika n ≠ 0, return nilai m sebagai hasil dan stop. Jika tidak, kembali ke Step 2.
+Step 2 Bagi nilai m dengan n, masukkan nilai sisanya ke r.
+Step 3 Masukan nilai n ke m dan nilai r ke n. Kembali ke Step 1.
+
+While n ≠ 0 do
+r <- m mod n
+m <- n
+n <- r
+return m
+
+KPK : 
+Kelipatan 3 = 3, 6, 9, 12, 15, 18, 21, 24, 27, 30, ....
+Kelipatan 4 = 4, 8, 12, 16, 20, 24, 28, 32, ..... 
+
+Algoritma :
+
+Baca 2 data dari keyboard bil1 dan bil2
+Jika bil1 < 2 atau bil2 < 2, ulang ke baris ke-1
+Jika bil1 = bil2, ulang ke baris ke-1
+Inisialisasi kpkbil1 = bil1 dan kpkbil2 = 2
+Jika kpkbil1 = kpkbil2 maka lompat ke baris ke-7
+Jika kpkbil1 > kpkbil2 maka kpkbil2 = kpkbil2 + bil2, jika tidak maka kpkbil1 = kpkbil1 + bil1.
+ulang ke baris ke-5
+Cetak bilangan KPK = kpkbil1
+Selesai
+
+
+#include <stdio.h>
+
+int FPB(int a, int b){
+    int r = 0;
+    while(b!=0){
+        r = a % b;
+        a = b;
+        b = r;
+    }
+
+    return a;
+}
+
+int main(){
+int a=120;
+int b=88;
+int KPK=0;
+
+    KPK= a*b / FPB(a, b);
+    printf("%d", KPK);
+    return 0;
+}
+
+
+
+algoritma luas segitiga : 
+
+deklarisasikan 3 variabel a,t,l
+Masukan nilai alas (a) dan nilai tinggi segitiga (t)
+Maka untuk menghitung luas digunakan rumus alas dengan tinggi yang sudah ditentukan
+Rumus untuk menghitung Luas Segitiga yaitu L = 1/2*25*30
+Nilai L (Luas) akan dicetak sebagai output ke perangkat output (keluaran)
+
+
+
+algoritma dan pseudocode jajar genjang :
+ 
+Masukan alas dan tinggi ( misal a = 5, tinggi = 3 )
+Luas jajargenjang alas * tinggi ( 5*3)
+Cetak Luas (15)
+Selesai
+
+Input a dan t (5 dan 4)
+Luas = a*t (5*3)
+print luas (15)
+End
+
+
+Fungsi untuk menukar dua variabel x dan y.
+define swap(x,y)
+buffer=x
+x=y
+y=buffer
+
+
+int x = manggis, y = pisang, t;
+
+	printf("Enter two integers\nA = ");
+	scanf("%d",&x);
+
+	printf("B = ");
+	scanf("%d", &y);
+
+	printf("\nSebelum ditukar\nA = %d\nB = %d\n", x, y);
+
+	t=x;
+	x=y;
+	y=t;
+	printf("\nSesudah ditukar\nA = %d\nB = %d\n", x, y);
+	return 0;
+
+
+
+
+algoritma dan pseudocode jajar genjang : 
+Masukan alas dan tinggi ( misal a = 5, tinggi = 3 )
+Luas jajargenjang alas * tinggi ( 5*3)
+Cetak Luas (15)
+Selesai
+
+Input a dan t (5 dan 4)
+Luas = a*t (5*3)
+print luas (15)
+End
+
+algoritma dan pseudocode volume tabung :
+
+input tinggi tabung (t)
+input jari-jari (r)
+volume=3,14*r*r*t
+hitung volume
+cetak hasil
+
+Input t dan r (5 dan 3)
+volume = 3,14*3*3*5
+print volume
+
+algoritma dan pseudocode volume kerucut d=5 t=4:
+
+ALGORITMA : 
+masukkan tinggi (t) = 4
+masukan diameter (d) = 5
+hitung volume=3,14*r*r*t
+cetak hasil
+
+input tinggi (t)
+input diameter (d)
+r = 
+volume=3,14*r*r*t
+hitung volume
+cetak hasil
+
+
+
+
+
+
