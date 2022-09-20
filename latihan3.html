@@ -1,0 +1,313 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>Bootstrap Example</title>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/css/bootstrap.min.css" rel="stylesheet">
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/js/bootstrap.bundle.min.js"></script>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>latihan3</title>
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css>family=sofia&effect=fire">
+    <style>
+
+
+      
+      
+
+        body {
+            font-family: 'Roboto';
+        }
+        p {
+            text-align: justify; 
+        }
+        subjudul{
+            color: aqua;
+        }
+        img {
+            margin: 5px;
+        }
+        #imggedung {
+            float: left;
+        }
+        
+
+ * {box-sizing: border-box}
+body {font-family: Verdana, sans-serif; margin:0}
+.mySlides {display: none}
+img {vertical-align: middle;}
+
+/* Slideshow container */
+.slideshow-container {
+  max-width: 2000px;
+  position: relative;
+  margin: auto;
+}
+
+/* Next & previous buttons */
+.prev, .next {
+  cursor: pointer;
+  position: absolute;
+  top: 50%;
+  width: auto;
+  padding: 16px;
+  margin-top: -22px;
+  color: black;
+  font-weight: bold;
+  font-size: 18px;
+  transition: 0.6s ease;
+  border-radius: 0 3px 3px 0;
+  user-select: none;
+}
+
+/* Position the "next button" to the right */
+.next {
+  right: 0;
+  border-radius: 3px 0 0 3px;
+}
+
+/* On hover, add a black background color with a little bit see-through */
+.prev:hover, .next:hover {
+  background-color: rgba(0,0,0,0.8);
+}
+
+/* Caption text */
+.text {
+  color: #f2f2f2;
+  font-size: 15px;
+  padding: 8px 12px;
+  position: absolute;
+  bottom: 8px;
+  width: 100%;
+  text-align: center;
+}
+
+/* Number text (1/3 etc) */
+.numbertext {
+  color: #f2f2f2;
+  font-size: 12px;
+  padding: 8px 12px;
+  position: absolute;
+  top: 0;
+}
+
+/* The dots/bullets/indicators */
+.dot {
+  cursor: pointer;
+  height: 15px;
+  width: 15px;
+  margin: 0 2px;
+  background-color: #bbb;
+  border-radius: 50%;
+  display: inline-block;
+  transition: background-color 0.6s ease;
+}
+
+.active, .dot:hover {
+  background-color: #717171;
+}
+
+/* Fading animation */
+.fade {
+  animation-name: fade;
+  animation-duration: 3s;
+}
+
+@keyframes fade {
+  from {opacity: .8} 
+  to {opacity: 1}
+}
+
+/* On smaller screens, decrease text size */
+@media only screen and (max-width: 300px) {
+  .prev, .next,.text {font-size: 11px}
+}
+    </style>
+</head>
+
+<body>
+    <p>
+        <img style="position: relative; left:200px;float: left; margin-top: 0px; max-width: 40%; width: 200px;" src="asset/img/upj.png"/>
+    </p>
+    
+    <h1 class="font-effect-fire" style="font-size:20px;color:aqua;position: relative; left:500px;margin-bottom:0px;font -family: 'sofia' ;">
+        INTEGRITY</h1> 
+    <h1 class="font-effect-fire" style="font-size:20px;color:green;position: relative; left:500px;margin-bottom:0px;font -family: 'sofia' ;">
+        PROFESSIONALISM</h1> 
+    <h1 class="font-effect-fire" style="font-size:20px;color:red;position: relative; left:500px;margin-bottom:0px;font -family: 'sofia' ;">
+        ENTREPRENEURSHIP</h1> 
+        <h1 style="font-size:15px;color:black;position: relative; bottom: 50px;left:900px;margin-top:0px;">
+            Language</h1> 
+
+            
+
+    <nav class="navbar navbar-expand-sm navbar-white bg-primary justify-content-center sticky-top">
+  <div class="container-fluid">
+    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#collapsibleNavbar">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="collapse navbar-collapse" id="collapsibleNavbar">
+      <ul class="navbar-nav"> 
+        <li class="nav-item dropdown">
+
+          <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown">TENTANG UPJ</a>
+          <ul class="dropdown-menu">
+            <li><a class="dropdown-item" href="#">Profil</a></li>
+
+            <li><a class="dropdown-item" href="https://www.upj.ac.id/static-page/2/sambutan-rektor">Sambutan Rektor</a></li>
+            <li><a class="dropdown-item" href="https://www.upj.ac.id/static-page/41/jajaran-pimpinan">Jajaran Pimpinan</a></li>
+            <li><a class="dropdown-item" href="#">Lembaga</a></li>
+            <li><a class="dropdown-item" href="#">Fasilitas</a></li>
+          </ul>
+        </li>
+        
+        <li class="nav-item dropdown">
+            <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown">PJ-COMMUNITY</a>
+            <ul class="dropdown-menu">
+              <li><a class="dropdown-item" href="https://www.upj.ac.id/static-page/168/talk-show">Talk Show</a></li>
+              <li><a class="dropdown-item" href="#">Mahasiswa</a></li>
+              <li><a class="dropdown-item" href="#">Alumni</a></li>
+            </ul>
+          </li>
+          <li class="nav-item dropdown">
+            <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown">KERJA SAMA</a>
+            <ul class="dropdown-menu">
+              <li><a class="dropdown-item" href="#">Akademik</a></li>
+              <li><a class="dropdown-item" href="#">Industri</a></li>
+              <li><a class="dropdown-item" href="http://upj.ac.id/mitra-kerja-sama/3/lain-lain">Lain-lain</a></li>
+            </ul>
+          </li>
+        <li class="nav-item" style="position: relative; left: 10px;">
+            <a class="nav-link" href="https://www.upj.ac.id/career">KARIR</a>
+          </li>
+          <li class="nav-item" style="position: relative; left: 20px;">
+            <a class="nav-link" href="https://www.upj.ac.id/static-page/165/wisuda">WISUDA</a>
+          </li>
+      </ul>
+    </div>
+  </div>
+</nav>
+<script>
+  // When the user scrolls down 20px from the top of the document, slide down the navbar
+  window.onscroll = function() {scrollFunction()};
+  
+  function scrollFunction() {
+    if (document.body.scrollTop > 20 || document.documentElement.scrollTop > 20) {
+      document.getElementById("navbar").style.top = "0";
+    } else {
+      document.getElementById("navbar").style.top = "-50px";
+    }
+  }
+  </script>
+
+<div class="slideshow-container">
+
+    <div class="mySlides fade">
+      <div class="numbertext">1 / 3</div>
+      <img src="asset/img/highlight_bg_162.png" style="width:100%">
+  
+    </div>
+    
+    <div class="mySlides fade">
+      <div class="numbertext">2 / 3</div>
+      <img src="asset/img/highlight_bg_161.jpg" style="width:100%">
+      
+    </div>
+    
+    <div class="mySlides fade">
+      <div class="numbertext">3 / 3</div>
+      <img src="asset/img/highlight_bg_156.jpg" style="width:100%">
+      
+    </div>
+    
+    <a class="prev" onclick="plusSlides(-1)">❮</a>
+    <a class="next" onclick="plusSlides(1)">❯</a>
+    
+    </div>
+    <br>
+    
+    <div style="text-align:center">
+      <span class="dot" onclick="currentSlide(1)"></span> 
+      <span class="dot" onclick="currentSlide(2)"></span> 
+      <span class="dot" onclick="currentSlide(3)"></span> 
+    </div>
+    
+    <script>
+    let slideIndex = 0;
+showSlides();
+
+function showSlides() {
+  let i;
+  let slides = document.getElementsByClassName("mySlides");
+  let dots = document.getElementsByClassName("dot");
+  for (i = 0; i < slides.length; i++) {
+    slides[i].style.display = "none";  
+  }
+  slideIndex++;
+  if (slideIndex > slides.length) {slideIndex = 1}    
+  for (i = 0; i < dots.length; i++) {
+    dots[i].className = dots[i].className.replace(" active", "");
+  }
+  slides[slideIndex-1].style.display = "block";  
+  dots[slideIndex-1].className += " active";
+  setTimeout(showSlides, 3000); // Change image every 2 seconds
+} 
+      </script>
+
+
+<nav class="navbar navbar-expand-sm bg-light justify-content-center">
+  <ul class="navbar-nav">
+    <li class="nav-item">
+      <a class="nav-link navbar-white bg-primary" href="http://upj.ac.id/static-page/57/sejarah-identitas-dan-nilai">Profil UPJ
+      <img src="asset\img/homelink_icon_1507094821_1.png" height="28">
+      </a>
+    </li>
+    <li class="nav-item">
+      <a class="nav-link bg-primary" href="http://upj.ac.id/pmb">Pendaftaran
+      <img src="asset\img/homelink_icon1507095213_3.png" height="28">
+    </a>
+    </li>
+    <li class="nav-item">
+      <a class="nav-link bg-primary" href="http://upj.ac.id/static-page/91/12-keunggulan-upj">Keunggulan UPJ
+      <img src="asset\img/homelink_icon1507095175_2.png" height="28">
+    </a>
+    </li>
+  </ul>
+</nav>
+
+</body>
+</html>
+
+<h1 style="background-color:red;">
+<tr> 
+  <td>
+    <img style="position: relative; bottom: 4px;left: 100px;width: 40px;" src="https://www.upj.ac.id/web/templates/assets/images/icon-mitra-kerja.png"</td>
+  <td> 
+        <b style="position: relative;bottom: 8px;left: 100px;font-size: 20px;color: white;">MITRA KERJASAMA
+        </b> 
+
+        <a href="file:///D:/WEB/latihan3.html" style="position: relative;bottom: 8px;left: 500px;font-size: 20px;background-color:black;color: white;">LIHAT SELENGKAPNYA
+        </a>         
+  </td> 
+</tr>
+</h1>
+
+
+
+  
+
+<tr >
+  <td>  
+  <td>
+        <b style="position: relative; left: 100px">CONTACT US</b>  
+         <img style="position: relative; top: 50px; right:10px;width: 80px;" src="https://www.upj.ac.id/web/templates/assets/images/logo-footer.png"</td>
+        </td>
+</tr>
+<tr>
+  <td>
+<br>  </td>
+</tr>
+
+
